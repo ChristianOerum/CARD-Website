@@ -1,4 +1,4 @@
-# Bubbles-Dashboard
+# CARD Airsoft
 
 ## Project setup
 ```
