@@ -1,6 +1,8 @@
 <template>
-<h1>Hello world</h1>
-<h2>Change</h2>
+
+  <h1 class="text-[#0097ff]">Hello world</h1>
+  <h2>Change</h2>
+
 </template>
 
 <script>
