@@ -2,7 +2,7 @@
 
     <div class="h-[140px] w-full bg-gradient-to-b from-black/[0.6] to-black/[0] flex flex-col justify-center fixed top-0">
 
-        <div class="h-3/5 absolute left-[50px]">
+        <div class="h-2/4 absolute left-[50px]">
             <img class="w-fit h-full" alt="CARDlogo-white" src="@/assets/cardlogo_whiteout.svg"/>
         </div>
 
