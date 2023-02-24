@@ -1,8 +1,8 @@
 <template>
 
-  <h1 class="text-[#0097ff]">Hello world</h1>
-  <h2>Change</h2>
-
+  <Homepage></Homepage>
+  
+  
 </template>
 
 <script>
@@ -11,9 +11,15 @@ import './assets/tailwind.css'
 //import af dash_page komponent
 import { defineComponent } from 'vue';
 
+//Fixed components import
+import Homepage from './page/Home-page.vue'
+
+
 export default defineComponent({
   name: 'App',
-  components: {},
+  components: {
+    Homepage
+  },
   data() {
     return {}
   },
