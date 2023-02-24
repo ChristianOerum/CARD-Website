@@ -3,7 +3,7 @@
     <div class="h-max w-full bg-[#30342D] relative max-w-[1600px]">
         
         <video class="aboslute w-full opacity-80" autoplay="true" loop muted>
-            <source src="https://www.dropbox.com/s/ywdvvz00b631wa3/Video%20for%20CARD%20SITE.mp4?dl=1" type="video/mp4">
+            <source src="../assets/HeroVideo.mp4" type="video/mp4" preload>
             Your browser does not support the video tag.
             </video>
 
@@ -31,6 +31,11 @@ export default ({
     data() {
       return {}
     },
-    methods: {}
+    methods: {},
+
+    beforeMount(){
+        console.log("beforeMount")
+    }
+
   });
   </script>
