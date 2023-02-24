@@ -1,8 +1,10 @@
 <template>
 
-  <div class="w-100 h-[100vh] relative bg-black">
+  <div class="w-100 h-[100vh] relative bg-[#090B07] flex flex-col items-center">
 
     <Hero class=""></Hero>
+    <PraktiskInfo class=""></PraktiskInfo>
+    <PraktiskInfo class=""></PraktiskInfo>
     <PraktiskInfo class=""></PraktiskInfo>
     <PraktiskInfo class=""></PraktiskInfo>
 
