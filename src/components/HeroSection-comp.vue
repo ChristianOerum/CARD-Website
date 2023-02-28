@@ -2,8 +2,13 @@
 
     <div class="h-max min-h-[600px] w-full bg-[#30342D] relative max-w-[1600px] overflow-hidden">
         
+<<<<<<< HEAD
         <video class="aboslute h-100 scale-y-[5] scale-x-[5] sm:scale-y-[4] sm:scale-x-[4] md:scale-y-[3] md:scale-x-[3] lg:scale-y-[2] lg:scale-x-[2] xl:scale-y-[1.5] xl:scale-x-[1.5] 2xl:scale-y-[1] 2xl:scale-x-[1] opacity-80" autoplay="true" loop muted>
             <source src="https://www.dropbox.com/s/ywdvvz00b631wa3/Video%20for%20CARD%20SITE.mp4?dl=1" type="video/mp4">
+=======
+        <video class="aboslute w-full opacity-80" autoplay="true" loop muted>
+            <source src="../assets/HeroVideo.mp4" type="video/mp4" preload>
+>>>>>>> 78901c05c5d6267822054471731764c99f7e391a
             Your browser does not support the video tag.
             </video>
 
@@ -31,6 +36,11 @@ export default ({
     data() {
       return {}
     },
-    methods: {}
+    methods: {},
+
+    beforeMount(){
+        console.log("beforeMount")
+    }
+
   });
   </script>
