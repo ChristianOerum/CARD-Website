@@ -2,12 +2,12 @@
 
     <div class="h-max min-h-[600px] w-full bg-[#30342D] relative max-w-[1600px] overflow-hidden">
         
-        <video class="aboslute h-100 scale-y-[5] scale-x-[5] sm:scale-y-[4] sm:scale-x-[4] md:scale-y-[3] md:scale-x-[3] lg:scale-y-[2] lg:scale-x-[2] xl:scale-y-[1.5] xl:scale-x-[1.5] 2xl:scale-y-[1] 2xl:scale-x-[1] opacity-80" autoplay="true" loop muted>
+        <video class="aboslute h-100 scale-y-[7] scale-x-[7] sm:scale-y-[4] sm:scale-x-[4] md:scale-y-[3] md:scale-x-[3] lg:scale-y-[2] lg:scale-x-[2] xl:scale-y-[1.5] xl:scale-x-[1.5] 2xl:scale-y-[1] 2xl:scale-x-[1] opacity-80" autoplay="true" loop muted>
             <source src="https://www.dropbox.com/s/ywdvvz00b631wa3/Video%20for%20CARD%20SITE.mp4?dl=1" type="video/mp4">
             Your browser does not support the video tag.
             </video>
 
-        <div class="absolute top-[40%] left-[5rem]">
+        <div class="absolute top-[40%] left-[50%] translate-x-[-50%] md:translate-x-[0%] md:left-[5rem]">
             <h1 class="text-white/[0.5] text-md font-Poppins font-medium">Est. 2022</h1>
             <h1 class="text-white text-5xl lg:text-7xl font-Poppins font-semibold">C.A.R.D. Airsoft</h1>
             <h2 class="text-[#F8D027] text-lg lg:text-3xl font-Poppins font-medium">Combat and Reconnaissance Division</h2>
@@ -31,11 +31,7 @@ export default ({
     data() {
       return {}
     },
-    methods: {},
-
-    beforeMount(){
-        console.log("beforeMount")
-    }
+    methods: {}
 
   });
   </script>
