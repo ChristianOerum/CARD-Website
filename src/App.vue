@@ -1,6 +1,11 @@
 <template>
 
-  <Homepage></Homepage>
+  <RouterView v-slot="{ Component }">
+    <Transition enter-from-class="opacity-0" enter-active-class="transition duration-500">
+      <component :is="Component"/>
+    </Transition>
+
+  </RouterView>
   
   
 </template>
@@ -12,13 +17,11 @@ import './assets/tailwind.css'
 import { defineComponent } from 'vue';
 
 //Fixed components import
-import Homepage from './page/Home-page.vue'
 
 
 export default defineComponent({
   name: 'App',
   components: {
-    Homepage
   },
   data() {
     return {}

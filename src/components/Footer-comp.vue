@@ -1,6 +1,6 @@
 <template>
 
-    <div class="h-auto w-full pt-10 pb-10 bg-[#202316] relative max-w-[1600px] flex flex-col">
+    <div class="h-auto w-[100%] pt-10 pb-10 bg-[#202316] relative max-w-[1600px] flex flex-col">
 
             <div class="bg-[#F8D027] w-100 h-[4px]"></div>
 

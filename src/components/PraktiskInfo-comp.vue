@@ -1,6 +1,6 @@
 <template>
 
-    <div class="h-auto w-full pt-10 pb-10 bg-[#202316] relative max-w-[1600px]">
+    <div class="h-auto w-[100%] pt-10 pb-10 bg-[#202316] relative max-w-[1600px]">
 
         <h1 class="text-white text-3xl font-semibold pl-[5%] pb-[7px]">FAQ</h1>
 

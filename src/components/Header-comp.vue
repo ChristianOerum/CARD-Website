@@ -1,6 +1,6 @@
 <template>
 
-    <div class="h-[140px] w-full bg-gradient-to-b from-black/[0.6] to-black/[0] flex flex-col justify-center fixed top-0 max-w-[1600px]">
+    <div class="h-[140px] w-[100%] bg-gradient-to-b from-black/[0.6] to-black/[0] flex flex-col justify-center fixed top-0 max-w-[1600px]">
 
         <div class="h-2/4 absolute left-[30px] md:left-[50px]">
             <img class="w-fit h-full" alt="CARDlogo-white" src="@/assets/cardlogo_whiteout.svg"/>

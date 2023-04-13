@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
+import router from './router'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -12,5 +13,6 @@ library.add(fas)
 
 createApp(App)
 .component("fa", FontAwesomeIcon)
+.use(router)
 .use(autoAnimatePlugin)
 .mount('#app')
