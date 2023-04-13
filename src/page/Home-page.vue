@@ -1,6 +1,6 @@
 <template>
 
-  <div class="w-100 h-[100%] relative bg-[#090B07] flex flex-col items-center">
+  <div class="w-screen h-[100%] relative bg-[#090B07] flex flex-col items-center">
 
     <Hero class=""></Hero>
     <Omforeningen class=""></Omforeningen>

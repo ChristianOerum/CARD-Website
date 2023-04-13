@@ -6,27 +6,23 @@
 
         <div class="flex flex-col justify-center items-center">
 
-            <div v-on:click="expandBox1()" class="bg-[#040900] w-[90%] h-auto min-h-[60px] relative m-1 rounded-lg border-2 border-[#F8D027] overflow-hidden group hover:bg-gradient-to-r hover:from-[#040900] hover:to-[#2C2801] shadow-[0_0px_40px_0px_rgba(0,0,0,0.7)]">
+            <div v-auto-animate v-on:click="expandBox1()" class="bg-[#040900] w-[90%] h-auto min-h-[60px] relative m-1 rounded-lg border-2 border-[#F8D027] overflow-hidden group hover:bg-gradient-to-r hover:from-[#040900] hover:to-[#2C2801] shadow-[0_0px_40px_0px_rgba(0,0,0,0.7)]">
                 <h1 class="text-white absolute top-[17px] left-[18px] text-poppins font-semibold">Something somehting title</h1>
-                <p class="absolute top-[15px] right-0 text-[#F8D027] text-xl transition-all duration-700 transform translate-x-12 group-hover:-translate-x-7 ease"><fa icon="crosshairs"/></p>
                 <p v-if="box1 == true" class="p-5 pt-[45px] text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum has been the industry's standard</p>
             </div>
 
-            <div v-on:click="expandBox2()" class="bg-[#040900] w-[90%] h-auto min-h-[60px] relative m-1 rounded-lg border-2 border-[#F8D027] overflow-hidden group hover:bg-gradient-to-r hover:from-[#040900] hover:to-[#2C2801] shadow-[0_0px_40px_0px_rgba(0,0,0,0.7)]">
+            <div v-auto-animate v-on:click="expandBox2()" class="bg-[#040900] w-[90%] h-auto min-h-[60px] relative m-1 rounded-lg border-2 border-[#F8D027] overflow-hidden group hover:bg-gradient-to-r hover:from-[#040900] hover:to-[#2C2801] shadow-[0_0px_40px_0px_rgba(0,0,0,0.7)]">
                 <h1 class="text-white absolute top-[17px] left-[18px] text-poppins font-semibold">Something somehting title</h1>
-                <p class="absolute top-[15px] right-0 text-[#F8D027] text-xl transition-all duration-700 transform translate-x-12 group-hover:-translate-x-7 ease"><fa icon="crosshairs"/></p>
                 <p v-if="box2 == true" class="p-5 pt-[45px] text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum has been the industry's standard</p>
             </div>
 
-            <div v-on:click="expandBox3()" class="bg-[#040900] w-[90%] h-auto min-h-[60px] relative m-1 rounded-lg border-2 border-[#F8D027] overflow-hidden group hover:bg-gradient-to-r hover:from-[#040900] hover:to-[#2C2801] shadow-[0_0px_40px_0px_rgba(0,0,0,0.7)]">
+            <div v-auto-animate v-on:click="expandBox3()" class="bg-[#040900] w-[90%] h-auto min-h-[60px] relative m-1 rounded-lg border-2 border-[#F8D027] overflow-hidden group hover:bg-gradient-to-r hover:from-[#040900] hover:to-[#2C2801] shadow-[0_0px_40px_0px_rgba(0,0,0,0.7)]">
                 <h1 class="text-white absolute top-[17px] left-[18px] text-poppins font-semibold">Something somehting title</h1>
-                <p class="absolute top-[15px] right-0 text-[#F8D027] text-xl transition-all duration-700 transform translate-x-12 group-hover:-translate-x-7 ease"><fa icon="crosshairs"/></p>
-                <p v-if="box3 == true" class="p-5 pt-[45px] text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum has been the industry's standard</p>
+                <p v-if="box3 == true" class="p-5 pt-[45px] text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum has been the industry's standard, >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum has been the industry's standard</p>
             </div>
 
-            <div v-on:click="expandBox4()" class="bg-[#040900] w-[90%] h-auto min-h-[60px] relative m-1 rounded-lg border-2 border-[#F8D027] overflow-hidden group hover:bg-gradient-to-r hover:from-[#040900] hover:to-[#2C2801] shadow-[0_0px_40px_0px_rgba(0,0,0,0.7)]">
+            <div v-auto-animate v-on:click="expandBox4()" class="bg-[#040900] w-[90%] h-auto min-h-[60px] relative m-1 rounded-lg border-2 border-[#F8D027] overflow-hidden group hover:bg-gradient-to-r hover:from-[#040900] hover:to-[#2C2801] shadow-[0_0px_40px_0px_rgba(0,0,0,0.7)]">
                 <h1 class="text-white absolute top-[17px] left-[18px] text-poppins font-semibold">Something somehting title</h1>
-                <p class="absolute top-[15px] right-0 text-[#F8D027] text-xl transition-all duration-700 transform translate-x-12 group-hover:-translate-x-7 ease"><fa icon="crosshairs"/></p>
                 <p v-if="box4 == true" class="p-5 pt-[45px] text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum has been the industry's standard</p>
             </div>
 

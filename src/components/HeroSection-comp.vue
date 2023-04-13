@@ -1,9 +1,9 @@
 <template>
 
-    <div class="h-max min-h-[600px] w-full bg-[#30342D] relative max-w-[1600px] overflow-hidden">
+    <div class="h-max w-full min-h-[600px] w-full bg-[#30342D] relative max-w-[1600px] overflow-hidden">
         
         <video class="aboslute h-100 scale-y-[7] scale-x-[7] sm:scale-y-[4] sm:scale-x-[4] md:scale-y-[3] md:scale-x-[3] lg:scale-y-[2] lg:scale-x-[2] xl:scale-y-[1.5] xl:scale-x-[1.5] 2xl:scale-y-[1] 2xl:scale-x-[1] opacity-80" autoplay="true" loop muted>
-            <source src="https://www.dropbox.com/s/ywdvvz00b631wa3/Video%20for%20CARD%20SITE.mp4?dl=1" type="video/mp4">
+            <source src="https://firebasestorage.googleapis.com/v0/b/card-website-c47c4.appspot.com/o/HeroVideo.mp4?alt=media&token=e1134035-066f-42d2-adf0-d4ce9c7f21d8" type="video/mp4">
             Your browser does not support the video tag.
             </video>
 
@@ -26,6 +26,7 @@
 <script>
 
 export default ({
+    //https://www.dropbox.com/s/ywdvvz00b631wa3/Video%20for%20CARD%20SITE.mp4?dl=1
     components: {
     },
     data() {
